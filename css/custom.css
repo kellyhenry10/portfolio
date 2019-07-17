@@ -39,6 +39,7 @@ Project Section
 .project-list {
     width: calc(100% + 6em);
     margin-left: -3em;
+    padding-left: 3em;
 }
 
 .project-box-link {
