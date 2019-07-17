@@ -1,3 +1,41 @@
+/*##########################
+Color Scheme
+#########################
+
+Lumber			FFE2D1
+tea green 		E1F0C4
+green sheen 	6BAB90
+wintergreen 	55917F
+wenge 			5E4C5A
+
+*/
+
+.main {
+    background: #E1F0C4;
+}
+
+.bg-primary {
+    background-color: #6BAB90 !important;
+}
+h2 {
+    color: #5E4C5A;
+}
+h1 {
+    color: #55917F;
+}
+.text-primary {
+    color: #5E4C5A !important;
+}
+body {
+    color: #55917F;
+}
+/*##########################
+Project Section
+#########################*/
+
+
+
+
 .project-list {
     width: calc(100% + 6em);
     margin-left: -3em;
