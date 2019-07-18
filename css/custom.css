@@ -29,6 +29,36 @@ h1 {
 body {
     color: #55917F;
 }
+
+section.resume-section {
+    margin: 0 auto;
+}
+
+
+/*##########################
+Skills Section
+#########################*/
+
+.tools-container {
+    max-width: 540px;
+}
+
+
+
+.tools-container ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.tools-container ul li {
+    position: relative;
+    list-style-type: none;
+}
+
 /*##########################
 Project Section
 #########################*/
@@ -37,7 +67,7 @@ Project Section
 
 
 .project-list {
-    width: calc(100% + 6em);
+    width: calc(100% + 3em);
     margin-left: -3em;
     padding-left: 3em;
 }
@@ -110,4 +140,31 @@ Project Section
 .project-box:hover .project-logo-box {
     transform: scale(0.9);
 
+}
+
+@media screen and (max-width:991px){
+	section.resume-section {
+	    padding-left: 30px !important;
+	    padding-right: 30px !important;
+	}
+}
+
+@media screen and (max-width:767px){
+	.project-box-link {
+	    width: 33.33%;
+	}
+}
+
+@media screen and (max-width:480px){
+	.tools-container ul {
+	    -moz-column-count: 1;
+	    -moz-column-gap: 40px;
+	    -webkit-column-count: 1;
+	    -webkit-column-gap: 40px;
+	    column-count: 1;
+	    column-gap: 40px;
+	}
+	.project-box-link {
+	    width: 50%;
+	}
 }
