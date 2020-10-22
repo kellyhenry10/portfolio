@@ -75,7 +75,7 @@ Project Section
 .project-box-link {
     display: block;
     float: left;
-    width: 25%;
+    width: calc(100% / 3);
     position: relative;
 }
 
